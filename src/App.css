@@ -71,6 +71,7 @@ body {
   background-color: var(--color3);
   color: #FFF;
   outline: none;
+  width: 100%;
 }
 
 .btn:hover {
@@ -78,7 +79,8 @@ body {
 }
 
 .dynamic-card {
-  width: 500px;
+  width: 200px;
+  padding: 10px;
   height: 200px;
   /* border-radius: 10px;
   box-shadow: 10px 10px 20px #CCC; */
@@ -99,26 +101,36 @@ body {
 }
 
 .dcard-text {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 600;
+}
+
+.price {
+  width: 500px;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 .card {
   background-color: rgb(250 250 251);
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   align-items: center;
   justify-content: center;
   gap: 15px;
   padding: 10px;
   border-radius: 10px;
   box-shadow: 1px 1px 20px var(--mirage10);
+  width: 500px;
+  margin: 10px 0px;
 }
 
 .card-header {
   /* font-size: 20px; */
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
+  text-align: center;
 }
 
 .card-text {
